@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TTPMLP_SaveViewController">
+            <connections>
+                <outlet property="btnComplete" destination="YtG-oh-nP5" id="StN-fU-Me0"/>
+                <outlet property="btnShare" destination="LST-ov-0qO" id="sWt-b0-SIz"/>
+                <outlet property="currentSaveImageView" destination="8LK-jY-j32" id="3bo-0r-tpV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="8LK-jY-j32">
+                    <rect key="frame" x="40" y="84" width="334" height="556"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LST-ov-0qO">
+                    <rect key="frame" x="82" y="700" width="250" height="40"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="nOo-dO-iD6"/>
+                        <constraint firstAttribute="height" constant="40" id="tvh-pB-xIh"/>
+                    </constraints>
+                    <state key="normal" title="分享">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnShareClick:" destination="-1" eventType="touchUpInside" id="5aa-wZ-L3j"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YtG-oh-nP5">
+                    <rect key="frame" x="82" y="776" width="250" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="TjY-gs-f5U"/>
+                        <constraint firstAttribute="height" constant="40" id="hCa-tt-Z56"/>
+                    </constraints>
+                    <state key="normal" title="完成">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                            <color key="value" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnBackMainClick:" destination="-1" eventType="touchUpInside" id="uxw-mP-L9x"/>
+                    </connections>
+                </button>
+                <view tag="10" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Koj-ce-1qW" customClass="CustomBottomView">
+                    <rect key="frame" x="0.0" y="896" width="414" height="0.0"/>
+                    <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="750" id="2TB-Ni-3ln"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8LK-jY-j32" secondAttribute="trailing" constant="40" id="92K-gu-BBM"/>
+                <constraint firstAttribute="trailing" secondItem="Koj-ce-1qW" secondAttribute="trailing" id="A9p-JX-KGD"/>
+                <constraint firstItem="LST-ov-0qO" firstAttribute="top" secondItem="8LK-jY-j32" secondAttribute="bottom" constant="60" id="HAN-oG-6Jb"/>
+                <constraint firstItem="8LK-jY-j32" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="JLv-Y5-MlT"/>
+                <constraint firstItem="LST-ov-0qO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="JRY-ev-ptj"/>
+                <constraint firstItem="YtG-oh-nP5" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="OR0-AV-xmE"/>
+                <constraint firstItem="YtG-oh-nP5" firstAttribute="top" secondItem="LST-ov-0qO" secondAttribute="bottom" constant="36" id="Ugi-hZ-ggb"/>
+                <constraint firstItem="8LK-jY-j32" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="eGf-xJ-exf"/>
+                <constraint firstAttribute="bottom" secondItem="Koj-ce-1qW" secondAttribute="bottom" id="eMI-s1-5nf"/>
+                <constraint firstItem="Koj-ce-1qW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jM3-lZ-xoh"/>
+                <constraint firstItem="Koj-ce-1qW" firstAttribute="top" secondItem="YtG-oh-nP5" secondAttribute="bottom" constant="80" id="qy9-zX-kUo"/>
+            </constraints>
+            <point key="canvasLocation" x="24.800000000000001" y="200.14992503748127"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="homeLogo" width="30" height="30"/>
+    </resources>
+</document>
