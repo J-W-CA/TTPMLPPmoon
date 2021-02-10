@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  FMLPFigureMonster
+//
+//  Created by apple on 2019/6/12.
+//  Copyright © 2019 feceYouCompany. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "Contains.h"
+#import "YLSVProgressHUD.h"
+#import "YNImageUploadView.h"
+#import "Masonry.h"
+#import "Language.h"
+#import "TTPMLP_NavBaseViewController.h"
+#import "UIAlertController+Utilities.h"
+#import "UIViewController+Utilities.h"
+#import "UICollectionViewCell+CLMove.h"
+#import "UIView+Extension.h"
+#import "config.h"
+#import "NSUserDefaults+extension.h"
+#import "UIImage+TTPMLP_Extension.h"
+#import "singleton.h"
+#import "HQToast.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
