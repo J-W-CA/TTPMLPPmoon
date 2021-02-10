@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  FMLPFigureMonster
+
+  Created by apple on 2019/6/12.
+  Copyright © 2019 feceYouCompany. All rights reserved.
+*/
+//"Filter" = "滤镜";
+//"Shooting" = "拍摄";
+// "Stitch" = "拼接";
+// "Back" = "返回";
+// "Compose" = "合成";
+//"Mosaic" = "马赛克处理";
+//"Mosaic_Tips" = "双手指滑动图片，单个手指模糊图片";
+//"Enter" = "确定";
+//"Cancel" = "取消";
+//"Save" = "保存";
+//"Prompt" = "提示";
+//"Please select the image you want to synthesize" = "请选择需要合成的图片";
+//"Normal" = "正常";
+//"Saturation" = "饱和度";
+//"Exposure" = "曝光";
+//"Contrast" = "对比";
+//"Combination" = "组合";
+//"Are you sure you want to remove?" = "你确定要删除当前拼图吗？";
+//"Delete" = "删除";
+//"The Saved" = "已保存";
+//"Share" = "分享";
+//"Complete" = "完成";
+
+
+
