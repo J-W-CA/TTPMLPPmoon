@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  FMLPFigureMonster
+
+  Created by apple on 2019/6/12.
+  Copyright © 2019 feceYouCompany. All rights reserved.
+*/
+//"CFBundleDisplayName" = "Pmoon";
+//"NSCameraUsageDescription" = "APP需要访问您的相机，用于效果拍照";
+//"NSPhotoLibraryAddUsageDescription" = "App需要您同意保存照片到相册，用于将拍照所得照片保存到相册里";
+//"NSPhotoLibraryUsageDescription" = "App需要访问您的相册，用于合成图片";
+//"NSContactsUsageDescription" = "App需要您同意保存照片到相册，用于将拍照所得照片保存到相册里";
