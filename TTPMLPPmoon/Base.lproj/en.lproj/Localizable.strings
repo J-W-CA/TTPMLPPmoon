@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  FMLPFigureMonster
+
+  Created by apple on 2019/6/12.
+  Copyright © 2019 feceYouCompany. All rights reserved.
+*/
+"Filter" = "Filter";
+"Shooting" = "Shooting";
+"Stitch" = "Stitch";
+ "Back" = "Back";
+ "Compose" = "Compose";
+"Mosaic" = "Mosaic";
+"Mosaic_Tips" = "Slide the picture with both hands, blurring the picture with a single finger";
+"Cancel" = "Cancel";
+"Save" = "Save";
+"Enter" = "Enter";
+"Failed to save image" = "Failed to save image";
+"Prompt" = "Prompt";
+"Please select the image you want to synthesize" = "Please select the image you want to synthesize";
+"Normal" = "Normal";
+"Saturation" = "Saturation";
+"Exposure" = "Exposure";
+"Contrast" = "Contrast";
+"Combination" = "Combination";
+"Are you sure you want to remove?" = "Are you sure you want to remove?";
+"Delete" = "Delete";
+"The Saved" = "The Saved";
+"Share" = "Share";
+"Complete" = "Complete";
