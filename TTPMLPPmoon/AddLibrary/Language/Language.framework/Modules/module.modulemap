@@ -1,0 +1,6 @@
+framework module Language {
+  umbrella header "Language.h"
+
+  export *
+  module * { export * }
+}
